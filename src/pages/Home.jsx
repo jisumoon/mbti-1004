@@ -82,3 +82,8 @@ const Home = () => {
 };
 
 export default Home;
+
+// 포털 seo
+// search engine optimization
+// 검색엔진최적화
+// 반드시 public에 넣어야한다. reacts는 = > public이 root directroy
