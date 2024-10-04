@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import styled from "styled-components";
-import { Button } from "react-bootstrap";
+import { Button, ButtonGroup } from "react-bootstrap";
 import { ResultData } from "../assets/resultdata";
+import KakaoShareButton from "../components/KakaoShareButton";
 
 const Wrapper = styled.div`
   display: flex;
@@ -74,7 +75,10 @@ const Result = () => {
         <Desc>
           예비 집사님과 찰떡궁합인 고양이는`{resultData.name}`형 입니다
         </Desc>
-        <Button onClick={handleClickButton}>테스트 다시 하기</Button>
+        <ButtonGroup>
+          <Button onClick={handleClickButton}>테스트 다시 하기</Button>
+          <KakaoShareButton />
+        </ButtonGroup>
       </Contents>
     </Wrapper>
   );
