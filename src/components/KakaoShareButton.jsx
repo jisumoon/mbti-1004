@@ -40,3 +40,7 @@ const KakaoShareButton = ({ data }) => {
 };
 
 export default KakaoShareButton;
+
+// 광고
+// 구글 add & 카카오 adfit
+// 하단 배너
