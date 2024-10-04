@@ -33,6 +33,22 @@ const ButtonGroup = styled.div`
     height: 200px;
     font-size: 18px;
   }
+  @media screen and (max-width: 780px) {
+    flex-direction: column;
+    & > button {
+      width: 300px;
+      height: 150px;
+      font-size: 16px;
+    }
+  }
+  @media screen and (max-width: 360px) {
+    flex-direction: column;
+    & > button {
+      width: 200px;
+      height: 100px;
+      font-size: 16px;
+    }
+  }
 `;
 
 const Question = () => {

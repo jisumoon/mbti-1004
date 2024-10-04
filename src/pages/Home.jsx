@@ -30,6 +30,19 @@ const Contents = styled.div`
 const Title = styled.div`
   font-size: 30px;
   margin: 20px 0 10px;
+  padding: 8px 14px;
+  background: crimson;
+  border-radius: 8px;
+  @media screen and (max-width: 780px) {
+    width: 300px;
+    font-size: 24px;
+    padding: 6px 12px;
+  }
+  @media screen and (max-width: 360px) {
+    width: 200px;
+    font-size: 18px;
+    padding: 4px 8px;
+  }
 `;
 
 const LogoImg = styled.div`
@@ -43,6 +56,9 @@ const LogoImg = styled.div`
 const Desc = styled.div`
   margin: 10px 0;
   font-size: 20px;
+  padding: 8px 14px;
+  background: crimson;
+  border-radius: 8px;
 `;
 
 const Home = () => {

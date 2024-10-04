@@ -43,6 +43,10 @@ const LogoImg = styled.div`
 const Desc = styled.div`
   margin: 10px 0;
   font-size: 20px;
+  text-align: center;
+  background: crimson;
+  padding: 8px 14px;
+  border-radius: 8px;
 `;
 
 const Result = () => {
@@ -65,10 +69,10 @@ const Result = () => {
       <Contents>
         <Title>결과보기🔻</Title>
         <LogoImg>
-          <img className="rounded-circle" src={ResultData.img} />
+          <img className="rounded-circle" src={resultData.img} />
         </LogoImg>
         <Desc>
-          예비 집사님과 찰떡궁합인 고양이는`{ResultData.name}`형 입니다
+          예비 집사님과 찰떡궁합인 고양이는`{resultData.name}`형 입니다
         </Desc>
         <Button onClick={handleClickButton}>테스트 다시 하기</Button>
       </Contents>
