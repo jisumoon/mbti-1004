@@ -87,3 +87,10 @@ export default Home;
 // search engine optimization
 // 검색엔진최적화
 // 반드시 public에 넣어야한다. reacts는 = > public이 root directroy
+// 사이트소유확인
+// 로봇 파일 생성
+// public 폴더안에 robot.txt
+// robot.txt 변환
+// rss : 사이트 내 소소한 데이터 변화
+// sitemap : 사이트 구조
+// 상단 주소를 복사하여
